@@ -1,0 +1,73 @@
+h1{
+  color:white;
+  display:none;
+  font-size:50px;
+  margin-top: 200px;
+}
+h2{
+  color:white;
+  display:none;
+  font-style: italic;
+}
+h3
+{
+  color:black;
+  text-align:center;
+}
+h4
+{
+  color:black;
+}
+p
+{
+  color:white;
+}
+.Buttons{
+ position: fixed;
+  display: block;
+  top: 100px;
+  right: 10px;
+}
+body {
+    background-image: url("https://c2.staticflickr.com/6/5729/29942735656_aea6c184be_b.jpg");
+      background-size: 2000px 3600px;
+    background-repeat: no-repeat;
+}
+#AboutMeInfo{
+   font-size:20px;
+  padding-bottom:50px;
+   position: absolute;
+  width:95%;
+  top: 1450px;
+  background-image:url("https://c2.staticflickr.com/8/7772/29951398871_2d40ef8999_b.jpg");
+   
+}
+#ButtonsContacts{
+  color:white;
+  text-align:center;
+  position: absolute;
+  width:95%;
+  top: 2000px;
+  background-image:url(https://c1.staticflickr.com/9/8132/30001216816_c8944f5bd9.jpg);
+ background-repeat: no-repeat;
+ background-position: center; 
+ background-size: 100%;
+}
+#PortfolioInfo
+{
+  color:white;
+  text-align:center;
+  padding-bottom:50px;
+  position: absolute;
+  width:95%;
+  top: 750px;
+  background-image:url(https://c1.staticflickr.com/9/8010/30035185505_68297f5bab_z.jpg);
+}
+#LBJpic
+{
+  
+}
+#MatrixPic
+{
+   height:50%;
+}
