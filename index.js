@@ -1,8 +1,7 @@
 
 $(document).ready(function()
-{                    $("#FirstMessage").delay("slow").fadeIn("slow");
-$("#SecondMessage").delay("2000").fadeIn("2000");
-       $("#PortfolioButton").click(function()
+{                    
+  $("#PortfolioButton").click(function()
  {
   $('html,body').animate({
     scrollTop:$('#PortfolioInfo').offset() .top-135
@@ -15,16 +14,11 @@ $("#SecondMessage").delay("2000").fadeIn("2000");
     scrollTop:($('#AboutMeInfo').offset().top-135)
 },500);
   });
+ 
 $("#ContactButton").click(function()
  {
   $('html,body').animate({
-    scrollTop:($('#ButtonsContacts').offset().top)
-},500);
-  });
-$("#ContactButton").click(function()
- {
-  $('html,body').animate({
-    scrollTop:($('#ButtonsContacts').offset().top)
+    scrollTop:($('#contactsSection').offset().top -100)
 },500);
   });
 
